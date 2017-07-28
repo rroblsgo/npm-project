@@ -1,8 +1,10 @@
 $bg-color: gray;
-$color: blue;
+$color: aqua;
 body {
     background-color: $bg-color;
     h1 {
         color: $color;
+        padding: 20px 50px;
+        border: 1px solid red;
     }
 }

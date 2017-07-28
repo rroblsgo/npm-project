@@ -4,7 +4,10 @@
     "description": "mi primer proyecto con npm",
     "main": "index.js",
     "scripts": {
-
+        "css": "node-sass -o dist/css src/scss --output-style compressed --source-map-embed",
+        "watch:css": "onchange src/scss/*.scss -- npm run css",
+        "serve": "browser-sync start --server dist --files dist",
+        "dev": "parallelshell 'npm run watch:css' 'npm run serve'"
     },
     "repository": {
         "type": "git",
@@ -20,5 +23,11 @@
     "bugs": {
         "url": "https://github.com/rroblsgo/npm-project/issues"
     },
-    "homepage": "https://github.com/rroblsgo/npm-project#readme"
+    "homepage": "https://github.com/rroblsgo/npm-project#readme",
+    "devDependencies": {
+        "browser-sync": "^2.18.13",
+        "node-sass": "^4.5.3",
+        "onchange": "^3.2.1",
+        "parallelshell": "^3.0.1"
+    }
 }
