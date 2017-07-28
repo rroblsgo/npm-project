@@ -1,0 +1,24 @@
+{
+    "name": "npm-project",
+    "version": "0.0.1",
+    "description": "mi primer proyecto con npm",
+    "main": "index.js",
+    "scripts": {
+
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rroblsgo/npm-project.git"
+    },
+    "keywords": [
+        "npm",
+        "boilerplate",
+        "frontend"
+    ],
+    "author": "Ricardo Robles",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rroblsgo/npm-project/issues"
+    },
+    "homepage": "https://github.com/rroblsgo/npm-project#readme"
+}

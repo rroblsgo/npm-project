@@ -1,0 +1,8 @@
+$bg-color: gray;
+$color: blue;
+body {
+    background-color: $bg-color;
+    h1 {
+        color: $color;
+    }
+}
